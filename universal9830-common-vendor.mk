@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/universal9830-common
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/universal9830-common/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/samsung/universal9830-common/proprietary/vendor/bin/hw/gps.sh:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gps.sh \
     vendor/samsung/universal9830-common/proprietary/vendor/etc/eden/gpu/eden_kernel_64.bin:$(TARGET_COPY_OUT_VENDOR)/etc/eden/gpu/eden_kernel_64.bin \
     vendor/samsung/universal9830-common/proprietary/vendor/etc/gnss/gps.cer:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cer \
@@ -113,6 +114,7 @@ PRODUCT_PACKAGES += \
     libsecnativefeature \
     libsecril-client.exynos990 \
     audio.primary.exynos990 \
+    sound_trigger.primary.exynos990 \
     vendor.samsung.hardware.audio@1.0-impl \
     libSamsungPostProcessConvertor \
     lib_SoundAlive_SRC384_ver320 \
@@ -214,6 +216,9 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.thermal@1.0 \
     vendor.samsung_slsi.hardware.eden_runtime@1.0-impl \
     vendor.samsung_slsi.hardware.eden_runtime@1.0 \
+    HotwordEnrollmentOKGoogleEx3CORTEXM4 \
+    HotwordEnrollmentXGoogleEx3CORTEXM4 \
+    com.android.hotwordenrollment.common.util \
     manifest_android.hardware.drm@1.3-service.widevine \
     cbd \
     android.hardware.drm@1.3-service.widevine \
