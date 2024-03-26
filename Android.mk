@@ -4,7 +4,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter r8s x1s x1slte,$(TARGET_DEVICE)),)
+ifneq ($(filter r8s x1s x1slte y2s z3s,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 
