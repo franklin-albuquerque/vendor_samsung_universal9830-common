@@ -194,8 +194,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.gnss@2.1 \
     vendor.samsung.hardware.radio.bridge@2.0 \
     vendor.samsung.hardware.radio.channel@2.0 \
-    vendor.samsung.hardware.radio@2.0 \
-    vendor.samsung.hardware.radio@2.1 \
     vendor.samsung.hardware.thermal@1.0 \
     vendor.samsung_slsi.hardware.eden_runtime@1.0-impl \
     vendor.samsung_slsi.hardware.eden_runtime@1.0 \
