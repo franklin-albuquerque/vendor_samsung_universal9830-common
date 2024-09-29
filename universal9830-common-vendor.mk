@@ -208,10 +208,10 @@ PRODUCT_PACKAGES += \
     vendor.samsung_slsi.hardware.eden_runtime@1.0 \
     EuiccGoogle \
     com.android.hotwordenrollment.common.util \
-    manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.samsung.hardware.radio.exclude.slsi \
-    vendor.samsung.hardware.radio_manifest_2_33 \
-    vendor.samsung.hardware.sehradio_manifest_2_33 \
+    manifest_android.hardware.drm@1.3-service.widevine.xml \
+    vendor.samsung.hardware.radio.exclude.slsi.xml \
+    vendor.samsung.hardware.radio_manifest_2_33.xml \
+    vendor.samsung.hardware.sehradio_manifest_2_33.xml \
     cass \
     cbd \
     android.hardware.drm@1.3-service.widevine \
